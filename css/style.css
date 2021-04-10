@@ -1,0 +1,607 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open Sans:300,400,500,600,700');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+
+
+
+.navbar{
+	background-color:#161A29;
+	border:none;
+	border-radius: 0;
+	padding-top:1%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-family: 'Source+Sans+Pro', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.0em;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin: 0px;
+	border-bottom: 0px solid #141822;
+	text-transform: uppercase;
+}
+
+
+
+
+#header{
+	font-family: 'Source+Sans+Pro', sans-serif;
+	font-weight: 700;
+	background-color: #161A29;
+}
+
+.heading{
+	padding-top: 12%;
+	padding-bottom: 15%;
+	height: 100vh;
+}
+
+
+
+.heading h1{
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #71798F;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+	margin-left: 16%;
+}
+
+.heading h3{
+	padding-top: 0.2%;
+	margin-left: 16%;
+	margin-right: 38%;
+	font-size: 17pt;
+	line-height: 2em;
+	font-family: 'Source+Sans+Pro', sans-serif;
+	letter-spacing: 0.4px;
+	font-weight: 500;
+	line-height: 170%;
+	color: #D8E3FF;
+}
+
+
+
+
+.heading h4{
+	margin-top: 6%;
+	font-size: 16px;
+    line-height: 1.2em;
+    color: #71798F;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    padding-top: 0%;
+}
+
+
+
+/* For Box elements */
+
+
+
+
+
+
+#main{
+	font-family: 'Source+Sans+Pro', sans-serif;
+	font-weight: 600;
+	padding-top: 10%;
+	background-color: #ffffff;
+	padding-bottom: 7%;
+}
+
+
+.projectList{
+	padding-bottom: 1.5%;
+	padding-right: 0.01%;
+}
+
+
+.box{
+	background-color:#ffffff;
+	padding: 0;
+	border-radius: 0%;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-transition: background-color 0.5s ease-out;
+  	-moz-transition: background-color 0.5s ease-out;
+  	-o-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+
+
+img{
+	width: 100%;
+	transform: scale(1);
+	-webkit-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  	-moz-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  	-o-transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+	transition: transform 0.5s ease, opacity 0.5s ease-out;
+}
+
+
+
+
+.box_text h4{
+	position: absolute; 
+    top: 5%; 
+    left: 44px; 
+	font-family: 'Source+Sans+Pro', sans-serif;
+	font-size: 9pt;
+	color: #171A28;
+	letter-spacing: 0.04em;
+    text-transform: uppercase;
+	font-weight: 400;
+	opacity: 70%;
+	line-height: 100%;
+}
+
+
+
+.box_text h5{
+	position: absolute; 
+    top: 9.6%;
+    left: 44px; 
+	font-family: 'Source+Sans+Pro', sans-serif;
+	font-size: 9.5pt;
+	letter-spacing: 0.2px;
+	font-weight: 300;
+	color: #656B87;
+}
+
+
+
+
+
+
+img.project:hover{
+	transform: scale(1.05);
+	opacity: 0.8;
+}
+
+.box:hover{
+	background-color:rgba(255, 255, 255, 1);
+}
+
+
+
+.recent	{
+	z-index: 10;
+	position: absolute; 
+    top: 9.2%;
+    left: 44px;
+}
+
+
+
+
+
+
+
+
+
+
+/* About Page */
+
+h2.heading2{
+	font-family: 'Source+Sans+Pro', sans-serif;
+	font-weight: 600;
+	font-size: 13pt;
+	 text-transform: uppercase;
+	 color: #1D274E;
+	padding-top: 12%;
+	opacity: 90%;
+	padding-bottom: 5%;
+}
+
+.profilePic{
+	margin-top: 0.5%;
+	border-radius: 4%;
+	padding-left:3%;
+}
+.profilePic img{
+	border:solid;
+	border-color: #ffffff;
+	border-width:0vw;
+	border-radius: 0%;
+}
+.written{
+	padding-left:3%;
+	padding-right: 3%;
+}
+p.aboutMe{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	text-align: justify;
+	letter-spacing: 0.1px;
+	line-height: 160%;
+	color: #1D274E;
+	opacity: 75%;
+
+}
+
+i.arrow {
+  border: "#3f6395";
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+i.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+
+/* Footer */
+
+h4.footer2{
+	padding-top: 10%;
+font-family:'Source+Sans+Pro', sans-serif;
+line-height: 150%;
+	font-weight: 400;
+	color: #1D274E;
+	opacity: 80%;
+	font-size: 14px;
+
+}
+
+
+
+
+
+/* Footer_In Projects */
+
+
+footer{
+	border-top: 0.5px solid #ECECEC;
+	padding-top:2.5%;
+	padding-bottom:4%;
+	margin-right: 320px;
+    margin-left: 320px;
+
+
+}
+
+
+
+
+
+.footer-text {
+	margin: 1%;
+	font-family: 'Source+Sans+Pro', sans-serif;
+    line-height: 300%;
+	font-weight: 400;
+	
+	
+}
+
+
+.sentence {
+	font-size: 15px;
+	color: #7C8A96;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 2%;
+	line-height: 240%;
+}
+
+.sentence:hover{
+	color: Red !important;
+}
+
+
+
+.footer-icons i:hover{
+	color: #04081A;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+
+@media (max-width: 768px)
+ {
+	.navbar{
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+/* .heading h1{
+	margin-left: 6%;
+	margin-right: 6%;
+	font-size: 20pt;
+}
+
+.heading h3{
+	margin-left: 6%;
+	margin-right: 6%;
+	font-weight: 400;
+	color: #6E6E6E;
+	line-height: 165%;
+	font-size: 18px;
+}*/
+
+
+
+
+
+.heading{
+	padding-top: 50%;
+	padding-bottom: 15%;
+	height: 100vh;
+}
+
+
+.heading h1{
+    font-size: 14px;
+    line-height: 1.2em;
+    color: #71798F;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+	margin-left: 8%;
+}
+
+.heading h3{
+	padding-top: 0.4%;
+	margin-left: 8%;
+	margin-right:8%;
+	font-size: 12pt;
+	line-height: 2em;
+	font-family: 'Source+Sans+Pro', sans-serif;
+	letter-spacing: 0.4px;
+	font-weight: 300;
+	line-height: 170%;
+	color: #F2F5FF;
+}
+
+.heading h4{
+	margin-top: 4%;
+	text-align: center;
+	font-size: 12px;
+    line-height: 1.2em;
+    color: #71798F;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    padding-top: 0%;
+}
+
+
+
+
+
+
+
+
+
+.projectList{
+	padding-bottom: 1.5%;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+
+
+.box{
+	height: 320px;
+	margin-top:2%;
+	border-radius: 0px;
+}
+
+
+
+
+
+
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: center;
+	transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box_text h4{
+    top: 5.5%; 
+    left: 36px; 
+	font-size: 8pt;
+	line-height: 100%;
+}
+
+
+
+.box_text h5{ 
+    top: 9.8%;
+    left: 36px; 
+	font-size: 7pt;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.profilePic{
+		text-align: center;
+		height: 420px;
+		padding-left: 4%;
+	padding-right: 4%;
+	}
+	
+
+.profilePic img{
+		    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: center;
+	transform: scale(1);
+	}
+
+
+
+
+p.aboutMe{
+ 		padding-top:6%;
+ 		margin:4%;
+ 	}
+
+
+ h4.footer2{
+ 	padding-top: 4%;
+	padding-right: 6%;
+ }
+	.heading{
+		text-align: left;
+	}
+
+  footer{
+	padding-bottom:6%;
+	margin-right: 6%;
+    margin-left: 6%;
+
+
+   }
+
+	.footer-text {
+	margin: 0%;
+	text-align: center;
+	
+}
+
+
+.sentence {
+	font-size: 13px;
+	color: #7C8A96;
+	margin-right: 10px;
+	margin-bottom: 0%;
+	line-height: 190%;
+}
+ }
+
+
+
+
+
+
+/* For Native text documentation */
+	
+#projectPage
+{
+	background: #f6f6f6;
+}
+.projectImg{
+	box-shadow: 0 0px 4px 0 #f6f6f6;
+	background: #ffffff;
+}
+ .projectImg img{
+ 	width: 100%;	
+ }
+
+  .projectImg h4{
+    margin-left:6%;
+    margin-right:10%;
+    font-family: 'Lora', serif;
+	font-weight: 400;
+	color: #5A5A5A;
+	font-size: 18px;
+	line-height: 200%;
+ }
+
+
+   .projectImg h3{
+    margin-left:6%;
+    margin-right:6%;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #5A5A5A;
+	font-size: 22px;
+	line-height: 200%;
+ }
+
+
+  .projectImg h5{
+    margin-left: 4%;
+    margin-bottom: 5%;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #5A5A5A;
+	font-size: 12px;
+	line-height: 200%;
+	font-style: italic;
+ }
+
+
+
+
+
+
+
+
+/* For Sprinklr Project */
+img.animated-gif{
+  width: 240px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* For Sprinklr Project */
+
+
+
+
+
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
