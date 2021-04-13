@@ -1,7 +1,8 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open Sans:300,400,500,600,700');*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap')
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 
 
@@ -219,13 +220,23 @@ p.aboutMe{
 	font-family: 'Roboto', sans-serif;
 	font-size: 12pt;
 	font-weight: 400;
-	text-align: justify;
-	letter-spacing: 0.1px;
-	line-height: 160%;
+	text-align: left;
+	letter-spacing: 0.15px;
+	line-height: 165%;
 	color: #1D274E;
-	opacity: 75%;
+	opacity: 80%;
 
 }
+.font-semibold{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #171D35;
+	opacity: 100%;
+
+}
+
+
+
 
 i.arrow {
   border: "#3f6395";
