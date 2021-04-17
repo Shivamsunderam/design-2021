@@ -37,7 +37,7 @@
 }
 
 .heading{
-	padding-top: 14%;
+	padding-top: 15%;
 	padding-bottom: 15%;
 	height: 100vh;
 }
@@ -354,7 +354,7 @@ footer{
 
 
 .heading{
-	padding-top: 50%;
+	padding-top: 36%;
 	padding-bottom: 15%;
 	height: 100vh;
 }
@@ -374,7 +374,7 @@ footer{
 	padding-top: 0.4%;
 	margin-left: 8%;
 	margin-right:8%;
-	font-size: 12pt;
+	font-size: 13pt;
 	line-height: 2em;
 	font-family: 'Source+Sans+Pro', sans-serif;
 	letter-spacing: 0.4px;
@@ -498,7 +498,7 @@ p.aboutMe{
 
 
  h4.footer2{
- 	padding-top: 4%;
+ 	padding-top: 20%;
 	padding-right: 6%;
  }
 	.heading{
@@ -506,7 +506,7 @@ p.aboutMe{
 	}
 
   footer{
-	padding-bottom:6%;
+	padding-bottom:20%;
 	margin-right: 6%;
     margin-left: 6%;
 
@@ -521,7 +521,7 @@ p.aboutMe{
 
 
 .sentence {
-	font-size: 13px;
+	font-size: 11px;
 	color: #7C8A96;
 	margin-right: 10px;
 	margin-bottom: 0%;
