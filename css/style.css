@@ -9,7 +9,7 @@
 
 
 .navbar{
-	background-color:#161A29;
+	background-color:#14151E;
 	border:none;
 	border-radius: 0;
 	padding-top:1%;
@@ -18,7 +18,7 @@
 	padding-right: 3%;
 	font-family: 'Source+Sans+Pro', sans-serif;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 12px;
 	letter-spacing: 0.0em;
 	margin-right: 150px;
 	margin-left: 150px;
@@ -33,7 +33,7 @@
 #header{
 	font-family: 'Source+Sans+Pro', sans-serif;
 	font-weight: 700;
-	background-color: #161A29;
+	background-color: #14151E;
 }
 
 .heading{
@@ -58,12 +58,12 @@
 	padding-top: 0.1%;
 	margin-left: 16%;
 	margin-right: 20%;
-	font-size: 18pt;
+	font-size: 15pt;
 	line-height: 2em;
 	font-family: 'Source+Sans+Pro', sans-serif;
 	letter-spacing: 0.4px;
-	font-weight: 500;
-	line-height: 170%;
+	font-weight: 300;
+	line-height: 180%;
 	color: #D8E3FF;
 }
 
@@ -72,7 +72,7 @@
 
 .heading h4{
 	margin-top: 6%;
-	font-size: 16px;
+	font-size: 15px;
     line-height: 1.2em;
     color: #71798F;
     font-weight: 400;
@@ -134,7 +134,7 @@ img{
     top: 5%; 
     left: 44px; 
 	font-family: 'Source+Sans+Pro', sans-serif;
-	font-size: 9pt;
+	font-size: 8pt;
 	color: #171A28;
 	letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -147,10 +147,10 @@ img{
 
 .box_text h5{
 	position: absolute; 
-    top: 9.6%;
+    top: 9%;
     left: 44px; 
 	font-family: 'Source+Sans+Pro', sans-serif;
-	font-size: 9.5pt;
+	font-size: 9pt;
 	letter-spacing: 0.2px;
 	font-weight: 300;
 	color: #656B87;
@@ -218,11 +218,11 @@ h2.heading2{
 }
 p.aboutMe{
 	font-family: 'Roboto', sans-serif;
-	font-size: 11.6pt;
+	font-size: 11pt;
 	font-weight: 400;
 	text-align: left;
-	letter-spacing: 0.2px;
-	line-height: 165%;
+	letter-spacing: 0.25px;
+	line-height: 175%;
 	color: #1D274E;
 	opacity: 80%;
 
@@ -255,12 +255,13 @@ i.right {
 /* Footer */
 
 h4.footer2{
-	padding-top: 10%;
+	padding-top: 15%;
 font-family:'Source+Sans+Pro', sans-serif;
 line-height: 150%;
 	font-weight: 400;
 	color: #1D274E;
 	opacity: 80%;
+	letter-spacing: 0.2px;
 	font-size: 14px;
 
 }
